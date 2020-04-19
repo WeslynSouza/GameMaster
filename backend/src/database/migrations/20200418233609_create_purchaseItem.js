@@ -1,9 +1,9 @@
 
 exports.up = function(knex) {
     return knex.schema.createTable('purchaseItem', function( table ){
-        table.string('idPurchase').primary();
+        table.string('idPurchase').notNullable();
         table.string('idGame').notNullable();
-        table.integer('amount').notNullable();
+        table.string('amount').notNullable();
   
         table.foreign('idPurchase').references('id').inTable('purchase');
         table.foreign('idGame').references('id').inTable('game');
