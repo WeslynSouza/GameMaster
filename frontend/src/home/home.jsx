@@ -1,5 +1,5 @@
 import React from 'react'
-import FirstContent from './firstContent'
+import FirstContent from './firstContent/index'
 
 export default () => (
     <div>

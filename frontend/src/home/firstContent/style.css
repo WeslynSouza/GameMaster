@@ -1,0 +1,10 @@
+
+.backContent{
+    position: relative;
+}
+
+.backContent h1{
+    color: #aaa;
+    text-align: center;
+    margin-top: 200px;
+}
